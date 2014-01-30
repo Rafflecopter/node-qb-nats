@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 0.10
+services:
+  - redis-server
+  - mongodb
+before_script:
+  - npm install -g nodeunit
+  - npm install --dev
+  - go get github.com/apcera/gnatsd
+  - gnatsd &
