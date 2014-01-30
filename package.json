@@ -1,0 +1,29 @@
+{
+  "name": "qb-nats",
+  "version": "0.0.1",
+  "description": "nats dialect for QB service framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/Rafflecopter/node-qb-nats"
+  },
+  "keywords": [
+    "qb"
+  ],
+  "author": "Jon Eisen <jon@metricfeat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rafflecopter/node-qb-nats/issues"
+  },
+  "homepage": "https://github.com/Rafflecopter/node-qb-nats",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "nats": "~0.2.8"
+  },
+  "devDependencies": {
+    "qb": "~0.5.0"
+  }
+}
